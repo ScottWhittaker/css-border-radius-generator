@@ -10,7 +10,7 @@
 </script>
 
 <header>
-	<h1>Border Radius Generator</h1>
+	<h1>Border Radius Generator</h1><a href="https://scottwhittaker.net/posts/css-border-radius-generator/">About</a>
 </header>
 <main>
 	<div>
@@ -25,8 +25,18 @@
 		display: inline-block;
 		padding: 8px 16px;
 		color: #fff;
-		font-weight: normal;
 		font-size: 18px;
+		background-color: #333;
+	}
+	header a {
+		display: inline-block;
+		padding: 8px 16px;
+		font-size: 18px;
+		background-color: #a51766;
+		color: #fff;
+		text-decoration: none;
+	}
+	header a:hover {
 		background-color: #333;
 	}
 	header, main {
